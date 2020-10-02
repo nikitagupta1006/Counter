@@ -1,0 +1,34 @@
+.container {
+            width: 100px;
+            height: 100px;
+            margin: 30px auto;
+            overflow: hidden;
+            position: relative;
+        }
+        
+        .container>p {
+            margin: 0px;
+            border-top: 2px solid black;
+            text-align: center;
+            font-weight: bolder;
+        }
+        
+        .current {
+            background-color: pink;
+            width: 100%;
+            height: 100%;
+        }
+        
+        .next {
+            background-color: lightgray;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 100px;
+        }
+        
+        .animate {
+            position: absolute;
+            top: 0px;
+            transition: all 0.5s;
+        } 
